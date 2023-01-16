@@ -1,71 +1,75 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Stavrina Teaching</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-		<script src="self-js/toggle.js" defer></script>
-	</head>
-	<body>
-		<nav class="navbar is-transparent" style="padding:0 1em" role="navigation" aria-label="main navigation">
-			<div class="navbar-brand">
+	<title>Stavrina Teaching</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="self-js/toggle.js" defer></script>
+</head>
+
+<body>
+	<nav class="navbar is-transparent" style="padding:0 1em" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
 			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarSimple">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 			</a>
-			</div>
-			
-			<div id="navbarSimple" class="navbar-menu ">
-				<div class="navbar-start">
-					<a class="navbar-item" href="index.html">
-						Home
+		</div>
+
+		<div id="navbarSimple" class="navbar-menu ">
+			<div class="navbar-start">
+				<a class="navbar-item" href="index.html">
+					Home
+				</a>
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						Presentations
 					</a>
-					<div class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link">
-							Presentations
-						</a>
-	
-						<div class="navbar-dropdown">
-							<a class="navbar-item" href="intro-to-git.html">Intro to Git</a>
-						</div>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="intro-to-git.html">Intro to Git</a>
 					</div>
-					<a class="navbar-item" href="contact.html">
-						Contact
-					</a>
 				</div>
-			</div>
-		</nav>
-		<!-- Begin Body of Page -->
-		<div class="container is-fluid">
-			<h1 class="title">Hi!</h1>
-			<h2 class="subtitle">Hello, there!</h2>
-			<div>
-				<div class="block">
-					<p>
-						Nice to see you've made it here, this is where I host some auxiliary teaching materials.
-					</p>
-					<p>
-						You might want to give <span class="has-text-weight-bold is-family-secondary tag is-light is-medium">presentations</span> a try.
-					</p>
-				</div>
+				<a class="navbar-item" href="contact.html">
+					Contact
+				</a>
 			</div>
 		</div>
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<!-- <script>
+	</nav>
+	<!-- Begin Body of Page -->
+	<div class="container is-fluid">
+		<h1 class="title">Hi!</h1>
+		<h2 class="subtitle">Hello, there!</h2>
+		<div>
+			<div class="block">
+				<p>
+					Nice to see you've made it here, this is where I host some auxiliary teaching materials.
+				</p>
+				<p>
+					You might want to give <span
+						class="has-text-weight-bold is-family-secondary tag is-light is-medium">presentations</span> a
+					try.
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<!-- <script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
@@ -76,5 +80,6 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script> -->
-	</body>
+</body>
+
 </html>
