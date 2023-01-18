@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Intro to Git</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/beige.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script src="self-js/toggle.js" defer></script>
+	</head>
+	<body>
+		<nav class="navbar is-transparent" style="padding:0 1em" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarSimple">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+			</div>
+			
+			<div id="navbarSimple" class="navbar-menu ">
+				<div class="navbar-start">
+					<a class="navbar-item" href="index.html">
+						Home
+					</a>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">
+							Presentations
+						</a>
+	
+						<div class="navbar-dropdown">
+							<a class="navbar-item" href="intro-to-git.html">Intro to Git</a>
+						</div>
+					</div>
+					<a class="navbar-item" href="contact.html">
+						Contact
+					</a>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Begin slides -->
+		<div class="reveal" style="width: 100%; height: 90vh; margin: 10px 0px;">
+			<div class="slides">
+				<section>
+					<h1>
+						Intro to Git
+					</h1>
+					<h2>AMS CDT</h2>
+					<h3>Stavrina Dimosthenous</h3>
+				</section>
+				<section>
+					What is the UNIX Shell?
+				</section>
+				<section>
+					How important is the command line?
+					<div class="r-stack">
+						<p class="fragment fade-in-then-out">
+							As important as you make it
+						</p>
+						<p class="fragment fade-in-then-out semi-fade-out">
+							Here's what you can do if your're comfortable with using a command line
+						</p>
+					</div>
+							<div class="r-stack">
+								<img class="fragment fade-up fade-in-then-out" src="images/cmd-shutdown.gif" alt="A gif animation showing the function of the shutdown command on the windows command line">
+							</div>
+				</section>
+				<section>
+				<h3 class="fragment fade-in-then-out">What are some software that run on the command line?</h3>
+				</section>
+				<section>
+					<h3>
+						What is version control?
+					</h3>
+				</section>
+				<section>
+					<h3>
+						Why is version control important?
+					</h3>
+				</section>
+				<section>
+					<h3>
+						Is Git an important skill?
+					</h3>
+				</section>
+				<section>
+					<h3>What will we be doing in this workshop?</h3>
+					<h6>We will learn:</h6>
+					<ol type="1">
+						<li>how to use the Unix Shell aka command line</li>
+						<li>how to use Git for (Software) Version Control</li>
+						<li>how to write collaboratively on GitHub</li>
+					  </ol>
+				</section>
+				<section>
+					<h3>Next steps</h3>
+					<ul>
+						<li>Group project</li>
+						<ol>
+							<li>
+								Use Git to write collaboratively
+							</li>
+							<li>
+								Request feedback from Stavrina
+							</li>
+						</ol>
+						<li>Support</li>
+						<ul style="list-style-type:none;">
+							<li>Feel free to contact Stavrina if you need any help</li>
+							<li><h5>OR</h5> The helper you have a working relationship with</li>
+						</ul>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				controls: true,
+				controlsLayout: 'bottom-right',
+				controlsBackArrows: 'faded',
+				progress: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch ]
+			});
+		</script>
+	</body>
+</html>
